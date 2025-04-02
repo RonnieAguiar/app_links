@@ -4,13 +4,21 @@ import { colors } from "@/styles/colors";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F4F4F5",
-    flexDirection: "row",
+    paddingTop: 62,
   },
   title: {
     color: colors.green[300],
     fontSize: 22,
   },
+  header: {
+    paddingHorizontal: 24,
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  logo: {
+    height: 32,
+    width: 38,
+  }
 });
